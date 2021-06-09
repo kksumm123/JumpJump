@@ -475,9 +475,10 @@ GameObject:
   - component: {fileID: 1933540761}
   - component: {fileID: 1933540764}
   - component: {fileID: 1933540763}
-  m_Layer: 0
-  m_Name: Square
-  m_TagString: Untagged
+  - component: {fileID: 1933540765}
+  m_Layer: 3
+  m_Name: Player
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -594,6 +595,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1933540765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933540760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4856b7beeb9b3a94db1d0f0568a395c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.1
+  state: 0
 --- !u!1001 &6996594205631440553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -660,6 +675,10 @@ PrefabInstance:
     - target: {fileID: 4580242014375962746, guid: 6eb47febaf8dd3f40b2c95247f50460f, type: 3}
       propertyPath: m_Name
       value: Brick_Wall_00
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580242014375962746, guid: 6eb47febaf8dd3f40b2c95247f50460f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6eb47febaf8dd3f40b2c95247f50460f, type: 3}
