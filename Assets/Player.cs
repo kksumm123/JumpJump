@@ -4,15 +4,36 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] float speed = 0.1f;
+    Transform tr;
+
+    [SerializeField] StateType state;
+    StateType State
     {
-        
+        get { return state; }
+        set
+        {
+            Debug.Log($"{state} -> {value}");
+            state = value;
+        }
+    }
+    enum StateType
+    {
+        Ground, 
+        Jump,
+        Fall
     }
 
-    // Update is called once per frame
+    private void Start()
+    {
+        tr = GetComponent<Transform>();
+    }
     void Update()
     {
-        
+
+        if (Input.GetKey(KeyCode.A))
+        {
+
+        }
     }
 }
