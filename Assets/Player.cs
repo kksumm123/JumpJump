@@ -5,9 +5,12 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] float speed = 0.1f;
+    [SerializeField] float speed = 4f;
     Transform tr;
-    Vector2 size;
+    Rigidbody2D rigid;
+    BoxCollider2D col;
+
+    public float veloY;
 
     #region StateType
     [SerializeField] StateType state;
@@ -22,7 +25,7 @@ public class Player : MonoBehaviour
     }
     enum StateType
     {
-        Ground, 
+        Ground,
         Jump,
         Fall
     }
@@ -30,17 +33,47 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        Application.targetFrameRate = 60;
         tr = GetComponent<Transform>();
-        size = GetComponent<BoxCollider2D>().size;
+        rigid = GetComponent<Rigidbody2D>();
+        col = GetComponent<BoxCollider2D>();
         SetWallLayer();
     }
-    void Update()
+    void FixedUpdate()
     {
+        veloY = rigid.velocity.y;
         SetCurrentState();
-        if (Input.GetKey(KeyCode.A))
+        Move();
+        Jump();
+    }
+    [SerializeField] float forceY = 1000;
+    private void Jump()
+    {
+        if (State == StateType.Ground)
         {
-
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                State = StateType.Jump;
+                rigid.AddForce(new Vector2(0, forceY));
+            }
         }
+    }
+
+    private void Move()
+    {
+        if (State == StateType.Ground)
+            return;
+
+        var pos = tr.position;
+        int dir = 0;
+        if (Input.GetKey(KeyCode.A))
+            dir = -1;
+        if (Input.GetKey(KeyCode.D))
+            dir = 1;
+
+        pos.x += dir * speed * Time.fixedDeltaTime;
+
+        tr.position = pos;
     }
 
     LayerMask groundLayer;
@@ -54,13 +87,21 @@ public class Player : MonoBehaviour
             State = StateType.Ground;
     }
 
+    private bool ChkJump()
+    {
+        if (rigid.velocity.y > 0)
+            return true;
+
+        return false;
+    }
+
     bool ChkGround()
     {
-        if (ChkGround3DirRay(tr.position - new Vector3(size.x / 2, 0, 0)))
+        if (ChkGround3DirRay(tr.position - new Vector3(col.size.x / 2, 0, 0)))
             return true;
         if (ChkGround3DirRay(tr.position))
             return true;
-        if (ChkGround3DirRay(tr.position + new Vector3(size.x / 2, 0, 0)))
+        if (ChkGround3DirRay(tr.position + new Vector3(col.size.x / 2, 0, 0)))
             return true;
 
         return false;
@@ -69,7 +110,7 @@ public class Player : MonoBehaviour
     private bool ChkGround3DirRay(Vector3 position)
     {
         Debug.Assert(groundLayer != 0, "그라운드 레이어 설정 안됨");
-        var hit = Physics2D.Raycast(position, Vector2.down, size.y / 2 + 0.1f, groundLayer);
+        var hit = Physics2D.Raycast(position, Vector2.down, col.size.y / 2 + 0.01f, groundLayer);
         return hit.transform;
     }
 }
