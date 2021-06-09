@@ -10,8 +10,6 @@ public class Player : MonoBehaviour
     Rigidbody2D rigid;
     BoxCollider2D col;
 
-    public float veloY;
-
     #region StateType
     [SerializeField] StateType state;
     StateType State
@@ -41,7 +39,6 @@ public class Player : MonoBehaviour
     }
     void FixedUpdate()
     {
-        veloY = rigid.velocity.y;
         SetCurrentState();
         Move();
         Jump();
@@ -87,14 +84,6 @@ public class Player : MonoBehaviour
             State = StateType.Ground;
     }
 
-    private bool ChkJump()
-    {
-        if (rigid.velocity.y > 0)
-            return true;
-
-        return false;
-    }
-
     bool ChkGround()
     {
         if (ChkGround3DirRay(tr.position - new Vector3(col.size.x / 2, 0, 0)))
@@ -107,10 +96,11 @@ public class Player : MonoBehaviour
         return false;
     }
 
+    [SerializeField] float raycastOffset = 0.02f;
     private bool ChkGround3DirRay(Vector3 position)
     {
         Debug.Assert(groundLayer != 0, "그라운드 레이어 설정 안됨");
-        var hit = Physics2D.Raycast(position, Vector2.down, col.size.y / 2 + 0.01f, groundLayer);
+        var hit = Physics2D.Raycast(position, Vector2.down, col.size.y / 2 + raycastOffset, groundLayer);
         return hit.transform;
     }
 }
