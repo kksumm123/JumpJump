@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] float speed = 4f;
+    [SerializeField] float speed = 5f;
     Transform tr;
     Rigidbody2D rigid;
     BoxCollider2D col;
@@ -43,7 +43,7 @@ public class Player : MonoBehaviour
         Move();
         Jump();
     }
-    [SerializeField] float forceY = 1000;
+    [SerializeField] float forceY = 900;
     private void Jump()
     {
         if (State == StateType.Ground)
