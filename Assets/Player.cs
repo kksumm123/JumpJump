@@ -32,6 +32,7 @@ public class Player : MonoBehaviour
     {
         tr = GetComponent<Transform>();
         size = GetComponent<BoxCollider2D>().size;
+        SetWallLayer();
     }
     void Update()
     {
@@ -67,9 +68,8 @@ public class Player : MonoBehaviour
 
     private bool ChkGround3DirRay(Vector3 position)
     {
-        Debug.Assert(groundLayer == 0, "그라운드 레이어 설정 안됨");
+        Debug.Assert(groundLayer != 0, "그라운드 레이어 설정 안됨");
         var hit = Physics2D.Raycast(position, Vector2.down, size.y / 2 + 0.1f, groundLayer);
         return hit.transform;
     }
-
 }
