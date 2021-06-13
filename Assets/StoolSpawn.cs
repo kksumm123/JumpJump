@@ -14,25 +14,23 @@ public class StoolSpawn : MonoBehaviour
     [SerializeField] float randMinX = -3f;
     [SerializeField] float randMaxX = 3f;
     [SerializeField] float spawnDelay = 2f;
-
+    private void Awake()
+    {
+        SpawnStoolMain();
+    }
     IEnumerator Start()
     {
-        Debug.Assert(stool != null, "GameManager Stool гр╢Г ╬х╣й");
         while (isPlaying)
         {
             yield return new WaitForSeconds(spawnDelay);
 
-            Instantiate(stool
-                , new Vector2(Random.Range(randMinX, randMaxX), startPoxY + (addY * (float)(Count - 1)))
-                , stool.transform.rotation);
-            Count++;
+            SpawnStoolMain();
         }
     }
 
-    private IEnumerator SpawnStoolCo()
+    void SpawnStoolMain()
     {
-        yield return new WaitForSeconds(spawnDelay);
-
+        Debug.Assert(stool != null, "GameManager Stool гр╢Г ╬х╣й");
         Instantiate(stool
             , new Vector2(Random.Range(randMinX, randMaxX), startPoxY + (addY * (float)(Count - 1)))
             , stool.transform.rotation);
