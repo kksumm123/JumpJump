@@ -63,13 +63,15 @@ public class Player : MonoBehaviour
 
     bool ChkGround()
     {
-        if (ChkGround3DirRay(tr.position - new Vector3(col.size.x / 2, 0, 0)))
-            return true;
-        if (ChkGround3DirRay(tr.position))
-            return true;
-        if (ChkGround3DirRay(tr.position + new Vector3(col.size.x / 2, 0, 0)))
-            return true;
-
+        if (rigid.velocity.y == 0)
+        {
+            if (ChkGround3DirRay(tr.position - new Vector3(col.size.x / 2, 0, 0)))
+                return true;
+            if (ChkGround3DirRay(tr.position))
+                return true;
+            if (ChkGround3DirRay(tr.position + new Vector3(col.size.x / 2, 0, 0)))
+                return true;
+        }
         return false;
     }
 
