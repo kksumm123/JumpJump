@@ -5,7 +5,7 @@ using UnityEngine;
 public class SeaWaveSetActive : MonoBehaviour
 {
     [SerializeField] Transform targetTr;
-    [SerializeField] float activeDelay = 0.3f;
+    [SerializeField] float activeDelay = 0.35f;
     IEnumerator Start()
     {
         targetTr = transform.Find("SeaWavePosition2");
@@ -14,5 +14,4 @@ public class SeaWaveSetActive : MonoBehaviour
         yield return new WaitForSeconds(activeDelay);
         targetTr.gameObject.SetActive(true);
     }
-
 }

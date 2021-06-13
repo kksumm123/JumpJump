@@ -121,4 +121,10 @@ public class Player : MonoBehaviour
         }
     }
     #endregion Jump
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.transform.CompareTag("Wave"))
+            GameManager.instance.SetIsGameOver(true);
+    }
 }
