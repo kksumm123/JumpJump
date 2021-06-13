@@ -6,7 +6,7 @@ public class SeaWave : MonoBehaviour
 {
     [SerializeField] float speed = 0.5f;
     [SerializeField] float speedAcceleration = 0.1f;
-    [SerializeField] float speedLimit = 4.5f;
+    [SerializeField] float speedLimit = 4f;
     void Update()
     {
         var pos = transform.position;

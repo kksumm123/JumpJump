@@ -175,4 +175,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.5
   speedAcceleration: 0.1
-  speedLimit: 4.5
+  speedLimit: 4
