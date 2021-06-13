@@ -119,3 +119,439 @@ System memory in use after: 97.9 MB.
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2536.
 Total: 1.885900 ms (FindLiveObjects: 0.177100 ms CreateObjectMapping: 0.059400 ms MarkObjects: 1.635600 ms  DeleteObjects: 0.013100 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002148 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.629 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2073 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.8 MB.
+System memory in use after: 98.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2540.
+Total: 1.938800 ms (FindLiveObjects: 0.173700 ms CreateObjectMapping: 0.055900 ms MarkObjects: 1.693100 ms  DeleteObjects: 0.015400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 426.597415 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials
+  artifactKey: Guid(9068b2150b6234f47b565f5ad357dcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials using Guid(9068b2150b6234f47b565f5ad357dcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a307200c13f291adf7a9cf3d2028b1f') in 0.004050 seconds
+  Import took 0.006745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050256 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials/Brown Stony Light.mat
+  artifactKey: Guid(3c560b1c5b4a7c048ba5f9b87a27ffd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials/Brown Stony Light.mat using Guid(3c560b1c5b4a7c048ba5f9b87a27ffd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3d85d0105e9497fd5b6a2e3284c794') in 0.218433 seconds
+  Import took 0.221280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials/Brown Stony.mat
+  artifactKey: Guid(1af41386b6aebff43af8aff2e57927a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials/Brown Stony.mat using Guid(1af41386b6aebff43af8aff2e57927a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0915d789b33003eb970dc4ccf7ccd8') in 0.006739 seconds
+  Import took 0.009316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials/Water Light Blue.mat
+  artifactKey: Guid(fb0d97085daff70438b2a95dcef13a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials/Water Light Blue.mat using Guid(fb0d97085daff70438b2a95dcef13a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bfa2aed27132095474a98a49a86098') in 0.015233 seconds
+  Import took 0.017670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials/Grass.mat
+  artifactKey: Guid(11729fa27a679db4fbeedeff9e7512fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials/Grass.mat using Guid(11729fa27a679db4fbeedeff9e7512fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937c57def84ef280cc3b324f64a1593b') in 0.006430 seconds
+  Import took 0.008708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials/Grey Stones.mat
+  artifactKey: Guid(052821051301bb849ab0e4f50ad32d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials/Grey Stones.mat using Guid(052821051301bb849ab0e4f50ad32d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17d62d3c26ce99640b73bca0e9a444c') in 0.006591 seconds
+  Import took 0.009002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials/Water Deep Blue.mat
+  artifactKey: Guid(731960bee06a1174683f3e96b29f5afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials/Water Deep Blue.mat using Guid(731960bee06a1174683f3e96b29f5afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdb9739f9045733f8814d9f3b0dbfe0') in 0.006003 seconds
+  Import took 0.008154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials/Sandy Orange.mat
+  artifactKey: Guid(6c8cc2afdf3d02049b71a1f5abc7ab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials/Sandy Orange.mat using Guid(6c8cc2afdf3d02049b71a1f5abc7ab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb404ea6513a9ed56f220cfa0f94aaba') in 0.005266 seconds
+  Import took 0.007331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials/Sandy.mat
+  artifactKey: Guid(bd26e3d2d0f56b54d95b8f3b244d407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials/Sandy.mat using Guid(bd26e3d2d0f56b54d95b8f3b244d407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832be187b9294f6b8d3b3784027423e4') in 0.005671 seconds
+  Import took 0.007870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.127946 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Textures
+  artifactKey: Guid(8b6774dd028bce841a27894a8d7b580e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Textures using Guid(8b6774dd028bce841a27894a8d7b580e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794a44f23107ac872beaa3b2efbc2ebd') in 0.001726 seconds
+  Import took 0.004514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052133 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Textures/Brown Stony Light.png
+  artifactKey: Guid(b1bf77c85bc87b44f8231605748c2b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Textures/Brown Stony Light.png using Guid(b1bf77c85bc87b44f8231605748c2b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b272badb15eab3c55f5ea2a07f38f5c') in 0.047717 seconds
+  Import took 0.050497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Textures/Sandy.png
+  artifactKey: Guid(fe1221309f0d1e04c88ed730fcb94d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Textures/Sandy.png using Guid(fe1221309f0d1e04c88ed730fcb94d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b591c001c0dff90ddccbcb30b962864f') in 0.004182 seconds
+  Import took 0.006633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Textures/Sandy Orange.png
+  artifactKey: Guid(b9bf32e5f8bd23e40a671eef3c6f5a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Textures/Sandy Orange.png using Guid(b9bf32e5f8bd23e40a671eef3c6f5a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86826e574a3d8e3540fc7d130a738b32') in 0.004492 seconds
+  Import took 0.007051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Textures/Grey Stones.png
+  artifactKey: Guid(60fdfa47a4e492b4f8fba1fd4d8f3a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Textures/Grey Stones.png using Guid(60fdfa47a4e492b4f8fba1fd4d8f3a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e39c317ba1aa1acb56794da2d1839d2') in 0.004220 seconds
+  Import took 0.006426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Textures/Grass.png
+  artifactKey: Guid(a4a961e41faaddd45a46183c4d69d80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Textures/Grass.png using Guid(a4a961e41faaddd45a46183c4d69d80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0735304cae6b648bf1ffbfb1db7ed95') in 0.004422 seconds
+  Import took 0.006554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Textures/Water Deep Blue.png
+  artifactKey: Guid(9db26ebe8235b5e42924bb2c54ad0c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Textures/Water Deep Blue.png using Guid(9db26ebe8235b5e42924bb2c54ad0c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22676809f5f46b19733ca04df13cb3d4') in 0.004898 seconds
+  Import took 0.007022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Textures/Water Light Blue.png
+  artifactKey: Guid(88f76f18520011749b20fb0977ee6c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Textures/Water Light Blue.png using Guid(88f76f18520011749b20fb0977ee6c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3258ed5a66a5cef8dad0d9f5c42634d') in 0.004141 seconds
+  Import took 0.006291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Textures/Brown Stony.png
+  artifactKey: Guid(692557726ce7f2843b9bf1f85480aa80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Textures/Brown Stony.png using Guid(692557726ce7f2843b9bf1f85480aa80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c1531968a7e43dd32fc21947a03854') in 0.004546 seconds
+  Import took 0.007149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.842761 seconds.
+  path: Assets/Resource/Sprite
+  artifactKey: Guid(3616d31d73b83e241a7b56cfef6306d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Sprite using Guid(3616d31d73b83e241a7b56cfef6306d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bf876724a30ae7dd8fb08da729d6a5') in 0.001703 seconds
+  Import took 0.004401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066125 seconds.
+  path: Assets/Resource/Sprite/GrassThinSprite.png
+  artifactKey: Guid(0daa9f23f87685f47918cc0b3829ca61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Sprite/GrassThinSprite.png using Guid(0daa9f23f87685f47918cc0b3829ca61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f563da8d00a4caa3e16233ac56d6743b') in 0.014734 seconds
+  Import took 0.017555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Resource/Sprite/Square.png
+  artifactKey: Guid(727359dc7df4c2a47a49aa56675b69e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Sprite/Square.png using Guid(727359dc7df4c2a47a49aa56675b69e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2522f7e6f731a74c9932ad14b3aba2') in 0.006057 seconds
+  Import took 0.008223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.606428 seconds.
+  path: Assets/Resource
+  artifactKey: Guid(37b95bf7483832f41be0771d07428771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource using Guid(37b95bf7483832f41be0771d07428771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8a23a0f4ed400db3f0f3085064c95a') in 0.001701 seconds
+  Import took 0.004453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.770877 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures
+  artifactKey: Guid(05a77cc63c484574b96064ac37378fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures using Guid(05a77cc63c484574b96064ac37378fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a48012dae552ebc153d9464d54c2f0') in 0.001639 seconds
+  Import took 0.004669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.632309 seconds.
+  path: Assets/Resource/Sprite/Water Deep Blue.png
+  artifactKey: Guid(d62a1c8fa933cf64aba27560bcfb5444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Sprite/Water Deep Blue.png using Guid(d62a1c8fa933cf64aba27560bcfb5444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243c65c261e3e64de73a4109f920e8e6') in 0.004756 seconds
+  Import took 0.007438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Resource/Sprite/Water Light Blue.png
+  artifactKey: Guid(cca10ae02347258488bb7aab2fa2d8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Sprite/Water Light Blue.png using Guid(cca10ae02347258488bb7aab2fa2d8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29dd6d27755a2040c59e98fea999c82') in 0.004258 seconds
+  Import took 0.006265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.756974 seconds.
+  path: Assets/Resource/Sprite/Water Deep Blue.png
+  artifactKey: Guid(d62a1c8fa933cf64aba27560bcfb5444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Sprite/Water Deep Blue.png using Guid(d62a1c8fa933cf64aba27560bcfb5444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf19b4fea736d28292abe877b55cb67f') in 0.008304 seconds
+  Import took 0.011055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016453 seconds.
+  path: Assets/Resource/Sprite/Water Deep Blue.png
+  artifactKey: Guid(d62a1c8fa933cf64aba27560bcfb5444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Sprite/Water Deep Blue.png using Guid(d62a1c8fa933cf64aba27560bcfb5444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf19b4fea736d28292abe877b55cb67f') in 0.011115 seconds
+  Import took 0.013894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Resource/Sprite/Water Light Blue.png
+  artifactKey: Guid(cca10ae02347258488bb7aab2fa2d8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Sprite/Water Light Blue.png using Guid(cca10ae02347258488bb7aab2fa2d8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83165541d870095b5ddf35ac2c55700') in 0.015742 seconds
+  Import took 0.018143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 423.880318 seconds.
+  path: Assets/test.psd
+  artifactKey: Guid(8f55ce6e0816a8c4face8c5732efd674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/test.psd using Guid(8f55ce6e0816a8c4face8c5732efd674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484da09ebafeb16bc2d75d53cccc4b95') in 0.008695 seconds
+  Import took 0.011770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.841424 seconds.
+  path: Assets/Resource/SeaWave.psd
+  artifactKey: Guid(8f55ce6e0816a8c4face8c5732efd674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/SeaWave.psd using Guid(8f55ce6e0816a8c4face8c5732efd674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265c0fb1964c37e6273bc0ed9c4218ad') in 0.004987 seconds
+  Import took 0.007883 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002304 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.636 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2074 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.2 MB.
+System memory in use after: 98.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2585.
+Total: 2.539100 ms (FindLiveObjects: 0.219000 ms CreateObjectMapping: 0.086500 ms MarkObjects: 2.216800 ms  DeleteObjects: 0.016000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.779209 seconds.
+  path: Assets/Prefabs/Sea
+  artifactKey: Guid(37e4046e469ad0e4eac54b6c195ccd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sea using Guid(37e4046e469ad0e4eac54b6c195ccd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7667148460dad546eee18da11a2530f2') in 0.004608 seconds
+  Import took 0.007131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.577922 seconds.
+  path: Assets/Prefabs/SeaWave
+  artifactKey: Guid(37e4046e469ad0e4eac54b6c195ccd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SeaWave using Guid(37e4046e469ad0e4eac54b6c195ccd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd87d5cc97b8520842d4b80e5a9c2c02') in 0.001540 seconds
+  Import took 0.004252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.542153 seconds.
+  path: Assets/Prefabs/SeaWave/SeaWavePosition.prefab
+  artifactKey: Guid(8cf76f1403d68a9478e2e16665b186a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SeaWave/SeaWavePosition.prefab using Guid(8cf76f1403d68a9478e2e16665b186a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SeaWave) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (SeaWave) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '89cb6ca2916a62d10f532643672fc635') in 0.034221 seconds
+  Import took 0.037193 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002387 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.633 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2074 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 98.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2590.
+Total: 2.047200 ms (FindLiveObjects: 0.185500 ms CreateObjectMapping: 0.059100 ms MarkObjects: 1.788500 ms  DeleteObjects: 0.013400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002379 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.631 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2074 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 98.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2594.
+Total: 2.133900 ms (FindLiveObjects: 0.217300 ms CreateObjectMapping: 0.091300 ms MarkObjects: 1.809500 ms  DeleteObjects: 0.015200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002248 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.622 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2074 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 98.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2598.
+Total: 1.989500 ms (FindLiveObjects: 0.193300 ms CreateObjectMapping: 0.063400 ms MarkObjects: 1.716600 ms  DeleteObjects: 0.015100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002746 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.636 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2074 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2602.
+Total: 1.951500 ms (FindLiveObjects: 0.186900 ms CreateObjectMapping: 0.059100 ms MarkObjects: 1.691000 ms  DeleteObjects: 0.013900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002274 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.638 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2074 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2606.
+Total: 2.671000 ms (FindLiveObjects: 0.203400 ms CreateObjectMapping: 0.068000 ms MarkObjects: 2.379300 ms  DeleteObjects: 0.019600 ms)
+
