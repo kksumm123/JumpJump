@@ -5,10 +5,11 @@ using UnityEngine;
 
 //[완료] minX, maxX 설정
 //완료 랜덤 발판 생성
-//todo 물바닥 생성
+//완료 물바닥 생성
 
 public class Player : MonoBehaviour
 {
+    public static Player instance;
     [SerializeField] float minX = -3f;
     [SerializeField] float maxX = 3f;
     [SerializeField] float speed = 10f;
@@ -37,6 +38,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        instance = this;
         Application.targetFrameRate = 60;
         tr = GetComponent<Transform>();
         rigid = GetComponent<Rigidbody2D>();
