@@ -17,7 +17,6 @@ public class MoveCam : MonoBehaviour
     void Update()
     {
         var distanceBetweenPlayerY = camDistanceOffset - (transform.position.y - player.position.y);
-        Debug.Log(distanceBetweenPlayerY);
         transform.Translate(new Vector3(0, distanceBetweenPlayerY * speed * Time.deltaTime, 0));
     }
 }

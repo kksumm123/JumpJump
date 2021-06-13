@@ -4,14 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //[완료] minX, maxX 설정
-//todo 랜덤 발판 생성
+//완료 랜덤 발판 생성
 //todo 물바닥 생성
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] float minX = -2.5f;
-    [SerializeField] float maxX = 2.5f;
-    [SerializeField] float speed = 5f;
+    [SerializeField] float minX = -3f;
+    [SerializeField] float maxX = 3f;
+    [SerializeField] float speed = 10f;
     Transform tr;
     Rigidbody2D rigid;
     BoxCollider2D col;
