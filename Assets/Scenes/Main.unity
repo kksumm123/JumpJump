@@ -419,11 +419,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bcf4519bce556548bfa3413578dbacf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlaying: 1
+  isSpawn: 1
   stool: {fileID: 1716480540314894078, guid: 3085290371e575e489c33c05d92c94e6, type: 3}
   randMinX: -3
   randMaxX: 3
-  spawnDelay: 1.2
+  distancePlayer: 20
 --- !u!4 &1408185118
 Transform:
   m_ObjectHideFlags: 0
@@ -873,10 +873,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1182173105}
     m_Modifications:
-    - target: {fileID: 81430394, guid: 8cf76f1403d68a9478e2e16665b186a9, type: 3}
-      propertyPath: speedAcceleration
-      value: 0.1
-      objectReference: {fileID: 0}
     - target: {fileID: 3074631812123313810, guid: 8cf76f1403d68a9478e2e16665b186a9, type: 3}
       propertyPath: m_RootOrder
       value: 0

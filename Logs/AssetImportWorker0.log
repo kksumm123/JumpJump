@@ -1080,3 +1080,53 @@ System memory in use after: 98.7 MB.
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2706.
 Total: 2.076100 ms (FindLiveObjects: 0.194100 ms CreateObjectMapping: 0.059900 ms MarkObjects: 1.807800 ms  DeleteObjects: 0.013600 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002230 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.631 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2074 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.6 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2710.
+Total: 2.008000 ms (FindLiveObjects: 0.189200 ms CreateObjectMapping: 0.060800 ms MarkObjects: 1.743500 ms  DeleteObjects: 0.013800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2087.448873 seconds.
+  path: Assets/Resource/SeaWave.psd
+  artifactKey: Guid(8f55ce6e0816a8c4face8c5732efd674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/SeaWave.psd using Guid(8f55ce6e0816a8c4face8c5732efd674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a43d1d9e322e70999e9e6b301dc587e') in 0.040701 seconds
+  Import took 0.043541 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002227 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.638 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2074 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.7 MB.
+System memory in use after: 98.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2715.
+Total: 2.377200 ms (FindLiveObjects: 0.250600 ms CreateObjectMapping: 0.086300 ms MarkObjects: 2.023100 ms  DeleteObjects: 0.016400 ms)
+
