@@ -50,7 +50,10 @@ public class Player : MonoBehaviour
         SetCurrentState();
         Move();
         Jump();
+        Fall();
     }
+
+   
     #region SetCurrentState
     LayerMask groundLayer;
     void SetWallLayer()
@@ -121,6 +124,20 @@ public class Player : MonoBehaviour
         }
     }
     #endregion Jump
+
+    #region Fall
+    private void Fall()
+    {
+        if (State == StateType.Jump)
+        {
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                State = StateType.Fall;
+                rigid.AddForce(new Vector2(0, -forceY));
+            }
+        }
+    }
+    #endregion Fall
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
