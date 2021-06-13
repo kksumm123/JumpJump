@@ -13,7 +13,7 @@ public class StoolSpawn : MonoBehaviour
     int Count = 1;
     [SerializeField] float randMinX = -3f;
     [SerializeField] float randMaxX = 3f;
-    [SerializeField] float chkPreGoPosX = 0.4f;
+    [SerializeField] float chkPreGoPosX = 0.7f;
     [SerializeField] float distancePlayer = 20f;
     Vector2 curGoPos;
     private void Start()

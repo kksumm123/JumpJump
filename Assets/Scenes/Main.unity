@@ -1249,7 +1249,7 @@ MonoBehaviour:
   stool: {fileID: 1716480540314894078, guid: 3085290371e575e489c33c05d92c94e6, type: 3}
   randMinX: -3
   randMaxX: 3
-  chkPreGoPosX: 0.4
+  chkPreGoPosX: 0.7
   distancePlayer: 20
 --- !u!4 &1408185118
 Transform:
