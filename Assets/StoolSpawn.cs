@@ -13,6 +13,7 @@ public class StoolSpawn : MonoBehaviour
     int Count = 1;
     [SerializeField] float randMinX = -3f;
     [SerializeField] float randMaxX = 3f;
+    [SerializeField] float chkPreGoPosX = 0.4f;
     [SerializeField] float distancePlayer = 20f;
     Vector2 curGoPos;
     private void Start()
@@ -37,8 +38,14 @@ public class StoolSpawn : MonoBehaviour
     void SpawnStoolMain()
     {
         Debug.Assert(stool != null, "GameManager Stool гр╢Г ╬х╣й");
+        float randX = 0;
+        do
+        {
+            randX = Random.Range(randMinX, randMaxX);
+        } while (Mathf.Abs(curGoPos.x - randX) < chkPreGoPosX);
+
         var curGo = Instantiate(stool
-            , new Vector2(Random.Range(randMinX, randMaxX), startPoxY + (addY * (float)(Count - 1)))
+            , new Vector2(randX, startPoxY + (addY * (float)(Count - 1)))
             , stool.transform.rotation);
         Count++;
         curGoPos = curGo.transform.position;
