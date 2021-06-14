@@ -536,21 +536,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1182173105}
     m_Modifications:
-    - target: {fileID: 81430394, guid: 8cf76f1403d68a9478e2e16665b186a9, type: 3}
-      propertyPath: speedAcceleration
-      value: 0.1
-      objectReference: {fileID: 0}
     - target: {fileID: 3074631812123313810, guid: 8cf76f1403d68a9478e2e16665b186a9, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3074631812123313810, guid: 8cf76f1403d68a9478e2e16665b186a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.63
+      value: -1.73
       objectReference: {fileID: 0}
     - target: {fileID: 3074631812123313810, guid: 8cf76f1403d68a9478e2e16665b186a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.52
+      value: -3.2799995
       objectReference: {fileID: 0}
     - target: {fileID: 3074631812123313810, guid: 8cf76f1403d68a9478e2e16665b186a9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -587,10 +583,6 @@ PrefabInstance:
     - target: {fileID: 9220501889902798109, guid: 8cf76f1403d68a9478e2e16665b186a9, type: 3}
       propertyPath: m_Name
       value: SeaWavePosition2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9220501889902798109, guid: 8cf76f1403d68a9478e2e16665b186a9, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cf76f1403d68a9478e2e16665b186a9, type: 3}
@@ -1489,7 +1481,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: 9de9d15333d95f547ba031b78f2f1765, type: 3}
   m_Color: {r: 0.5754717, g: 0.16558382, b: 0.4964838, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1706,11 +1698,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3074631812123313810, guid: 8cf76f1403d68a9478e2e16665b186a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.37
+      value: -0.04
       objectReference: {fileID: 0}
     - target: {fileID: 3074631812123313810, guid: 8cf76f1403d68a9478e2e16665b186a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.03
+      value: -3.35
       objectReference: {fileID: 0}
     - target: {fileID: 3074631812123313810, guid: 8cf76f1403d68a9478e2e16665b186a9, type: 3}
       propertyPath: m_LocalPosition.z
