@@ -6,13 +6,17 @@ public class SeaWave : MonoBehaviour
 {
     [SerializeField] float speed = 0.5f;
     [SerializeField] float speedAcceleration = 0.1f;
+    [SerializeField] float speedLowAcceleration = 0.005f;
     [SerializeField] float speedLimit = 4f;
     void Update()
     {
-        var pos = transform.position;
-        pos.y += speed * Time.deltaTime;
-        transform.position = pos;
-        speed += speedAcceleration * Time.deltaTime;
-        speed = Mathf.Min(speed, speedLimit);
+        if (GameManager.instance.isGameOver == false)
+        {
+            var pos = transform.position;
+            pos.y += speed * Time.deltaTime;
+            transform.position = pos;
+            speed += (speed < 4 ? speedAcceleration : speedLowAcceleration) * Time.deltaTime;
+            speed = Mathf.Min(speed, speedLimit);
+        }
     }
 }

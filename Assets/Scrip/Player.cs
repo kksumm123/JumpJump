@@ -47,13 +47,16 @@ public class Player : MonoBehaviour
     }
     void FixedUpdate()
     {
-        SetCurrentState();
-        Move();
-        Jump();
-        Fall();
+        if (GameManager.instance.isGameOver == false)
+        {
+            SetCurrentState();
+            Move();
+            Jump();
+            Fall();
+        }
     }
 
-   
+
     #region SetCurrentState
     LayerMask groundLayer;
     void SetWallLayer()
@@ -116,7 +119,7 @@ public class Player : MonoBehaviour
     {
         if (State == StateType.Ground)
         {
-            if (Input.GetKeyDown(KeyCode.W))
+            if (Input.GetKey(KeyCode.W))
             {
                 State = StateType.Jump;
                 rigid.AddForce(new Vector2(0, forceY));
@@ -130,7 +133,7 @@ public class Player : MonoBehaviour
     {
         if (State == StateType.Jump)
         {
-            if (Input.GetKeyDown(KeyCode.S))
+            if (Input.GetKey(KeyCode.S))
             {
                 State = StateType.Fall;
                 rigid.AddForce(new Vector2(0, -forceY));

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    [SerializeField] bool isGameOver = false;
+    [SerializeField] internal bool isGameOver = false;
     [SerializeField] Transform gamaOverUI;
     [SerializeField] Transform scoreUI;
     [SerializeField] Text scoreUIText;
