@@ -136,7 +136,7 @@ public class Player : MonoBehaviour
             if (Input.GetKey(KeyCode.S))
             {
                 State = StateType.Fall;
-                rigid.AddForce(new Vector2(0, -forceY));
+                rigid.AddForce(new Vector2(0, -forceY * 2f));
             }
         }
     }
