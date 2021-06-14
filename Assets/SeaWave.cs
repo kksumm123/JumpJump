@@ -10,7 +10,7 @@ public class SeaWave : MonoBehaviour
     [SerializeField] float speedLimit = 4f;
     void Update()
     {
-        if (GameManager.instance.isGameOver == false)
+        if (GameManager.instance.isGameStart)
         {
             var pos = transform.position;
             pos.y += speed * Time.deltaTime;

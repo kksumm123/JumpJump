@@ -47,7 +47,7 @@ public class Player : MonoBehaviour
     }
     void FixedUpdate()
     {
-        if (GameManager.instance.isGameOver == false)
+        if (GameManager.instance.isGameStart)
         {
             SetCurrentState();
             Move();
@@ -145,6 +145,9 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.transform.CompareTag("Wave"))
+        {
             GameManager.instance.SetIsGameOver(true);
+            GameManager.instance.SetIsGameStart(false);
+        }
     }
 }
