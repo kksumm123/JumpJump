@@ -15,7 +15,7 @@ public class SeaWave : MonoBehaviour
             var pos = transform.position;
             pos.y += speed * Time.deltaTime;
             transform.position = pos;
-            speed += (speed < 4 ? speedAcceleration : speedLowAcceleration) * Time.deltaTime;
+            speed += (speed < speedLimit ? speedAcceleration : speedLowAcceleration) * Time.deltaTime;
         }
     }
 }
